@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    ;
+}
+
+
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #eaeaea;
+    font-family: Arial, sans-serif;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #eaeaea;
+    font-family: Arial, sans-serif;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 8%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+
+}
+
+.logo {
+    text-decoration: navy;
+    font-size: 28px;
+    font-weight: 600;
+
+
+}
+
+.navbar a {
+    display: inline-flex;
+    color: #222;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0px 20px;
+    text-decoration: none;
+    transition: 0.3s;
+
+
+
+}
+
+.navbar a:hover {
+    color: #1743e3;
+
+
+
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    justify-content: space-between;
+
+
+}
+
+
+.content {
+    display: block;
+
+    margin-top: 0;
+    max-width: 500px;
+    padding-left: 120px;
+
+
+
+}
+
+.content h1 {
+    font-size: 35px;
+    color: navy;
+
+
+}
+
+.content p {
+    margin: 10px 0 30px;
+    color: #333;
+
+}
+
+.watch-button {
+    display: inline-block;
+    align-items: center;
+    padding: 10px 20px;
+    color: #1743e3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+.watch-button img {
+    margin-right: 8px;
+    /* Space between image and text */
+    width: 20px;
+    /* Icon size */
+    height: 18px;
+    /* Icon size */
+
+
+}
+
+.right-side {
+    border-radius: 500px 500px;
+    background-color: #dee2e3;
+
+}
+
+
+.right-side img {
+
+    max-width: 400px;
+    height: auto;
+
+}
